@@ -1,0 +1,1 @@
+## Idea : try to fine tune the encoder while training the fusion transformer
