@@ -1,7 +1,7 @@
 # Library Presentation
 
 The main code (models, training loops, loss, feature engineering) for the various models presented in the report are in the `src` file.
-The scripts files are there to train a given model and create a submission once trained. They should be plug-and-play (given the right dependcies are installed, and the data has been correctly enriched by running `src/data/enrich.pyù before hand). Each script begins with the full list of model hyperparameters used for the late submissions discussed in the report. 
+The scripts files are there to train a given model and create a submission once trained. They should be plug-and-play (given the right dependencies are installed, and the data has been correctly enriched by running `src/data/enrich.pyù before hand). Each script begins with the full list of model hyperparameters used for the late submissions discussed in the report. 
 
 Are notably absent : the `train_submit` script and losses used for the competition model. This is due to the fact that this code library was a a re-write of my working library so that the code would be easier to read (and also to remove all uses of scrapped views), and I didn't not have the time to adapt these scripts to the new library, but as the model was essentially inept, I don't think these scripts will be missed. Also absent is the tag extraction script as it was not used in any of the models from the report. 
 
